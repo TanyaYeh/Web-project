@@ -1,0 +1,45 @@
+ html {
+    font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
+    font-family: 'Pangolin', cursive;
+    background-color: #EEE1FD;
+  }
+
+  body {
+     width: 1000px;
+     margin: 0 auto;
+     background-color: #EFB9FC;
+     padding: 0 20px 20px 20px;
+     border: 5px solid #832D99;
+   
+   }
+
+     h1 {
+       color: #620579;
+       font-size: 60px;
+       text-align: center;
+       margin: 0 ;
+       padding: 20px 0;
+       text-shadow: 3px 3px 8px #953CAD;
+     }
+
+     p {
+       color: #4E277B;
+       text-align: justify;
+       font-size: 20px;
+       line-height: 2;
+       letter-spacing: 1px;
+     }
+
+     img {
+       display: block;
+       margin: 0 auto;
+     }
+
+     ul {
+       color: #8A55C8;
+       text-align: justify;
+       font-size: 20px;
+       line-height: 2;
+       letter-spacing: 1px;
+     }
+
