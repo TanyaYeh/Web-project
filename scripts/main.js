@@ -1,5 +1,5 @@
 document.querySelector('html').onclick = function(){
-    alert('mewo~~')
+    alert('meow~~')
 }
 
 var myImage = document.querySelector('img');
