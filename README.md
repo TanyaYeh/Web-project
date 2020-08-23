@@ -215,3 +215,39 @@
 
 [參考資料:網頁前端工程入門：網頁排版教學 By 彭彭](https://www.youtube.com/watch?v=YnSmOQF5Lwk&list=RDCMUCguZS-y7codLSt6vpkVdnKg&index=2
 )
+
+## CSS3 Flexbox排版
+
+透過使用`flex`設定達到上一節先設定`margin-left/right:auto`，再設定`box:width`&`margin`&`padding`像素，最後再設定`display:inline-block`&`vertical-align:top`。
+具體方法為以下
+
+先處理*並排*(切欄):容器設定顯示模式`display:flex`；項目設`flex:none`並給寬度
+
+再處理*水平對齊*:容器設定`justify-content`
+
+最後處理*垂直對齊*:容器設定`align-items:stretch`
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Lesson 3</title>
+        <link href="style.css" rel="stylesheet" type="text/css" media="all"/>
+    </head>
+    <body >
+        <nav>
+        <div class="lego">Logo</div>
+        <div class="menu">Menu</div>
+        <div class="user">User</div>
+        </nav>
+        <main>       //容器裝三個項目(<div>)
+        <div class="item">1<br/>happy</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        </main>
+    </body>
+    </html>
+
+[實作](/03_basic_html/homework/training3.html)
+
+[參考資料:網頁前端工程入門：CSS3 Flexbox 排版基礎教學 By 彭彭](https://www.youtube.com/watch?v=CB-s9s1-r7Q&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp&index=7)

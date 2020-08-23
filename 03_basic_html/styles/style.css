@@ -1,0 +1,36 @@
+body{
+    margin:0px;
+}
+nav{
+    display:flex;
+}
+nav>.logo{
+    flex:none;
+    width:100px;
+    font-weight:bold;font-size:20px;
+    background-color: #86F288;
+}
+nav>.menu{
+    flex:auto;
+    font-weight:bold;font-size:20px;
+    text-align:center;
+    background-color:#BAF286;
+}
+nav>.user{
+    flex:none;
+    font-weight:bold;font-size:20px;
+    width:100px;
+    background-color:#F0F286;
+}
+main{
+    display:flex;
+    justify-content:center;
+    align-items:stretch;
+    background-color:#64E556
+}
+main>.item{
+    flex:none;
+    width:300px; margin: 10px;
+    text-align:center;
+    background-color:#E6FBE4;
+}
