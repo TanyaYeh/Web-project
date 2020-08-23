@@ -192,8 +192,8 @@
         font-weight:blod;
         }
         </style>
-        </head>
-        <body style="margin:0px"> //區塊與螢幕邊緣為0
+    </head>
+    <body style="margin:0px"> //區塊與螢幕邊緣為0
         <div class="head">關於我</div>
         <div class="content"></div>
         <div class="box">
@@ -208,8 +208,8 @@
         <div class="box">
         <div class="title">聯繫方式</div>
         </div>
-        </body>
-        </html>
+    </body>
+    </html>
 
 [實作02](/02_basic_html/homework/training2.html)
 
