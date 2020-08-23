@@ -53,7 +53,7 @@
     </body>
     </html>
 
-[實作01](/01_basic_html/homework/training1.html)
+[實作01](/01_basic_html/README.md)
 
 [參考資料:網頁前端工程入門：基礎 HTML 教學 By 彭彭](https://www.youtube.com/watch?v=SRbewm2AUew&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp&index=1)
 
