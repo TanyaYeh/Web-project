@@ -139,7 +139,7 @@
 
 ***高度、寬度只能設計在區塊(會斷行的)標籤，而無法設計在行內標籤(如`span`)***
 
-[實作](/04_basic_html/homework/training4.html)
+[實作04](/04_basic_html/homework/training4.html)
 
 [參考資料:網頁前端工程入門：基礎 CSS 教學 By 彭彭](https://www.youtube.com/watch?v=Jr7lwHnTK68&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp&index=2)
 
@@ -261,6 +261,6 @@
     </body>
     </html>
 
-[實作](/03_basic_html/homework/training3.html)
+[實作03](/03_basic_html/homework/training3.html)
 
 [參考資料:網頁前端工程入門：CSS3 Flexbox 排版基礎教學 By 彭彭](https://www.youtube.com/watch?v=CB-s9s1-r7Q&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp&index=7)
