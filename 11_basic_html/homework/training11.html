@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <script type="text/javascript">
+        var a=prompt("請輸入數字","0");
+        var b=prompt("請輸入數字","0");
+        var c=prompt("請輸入+,-,*,/","");
+        var answer;
+        a=Number(a);b=Number(b);
+        if(c =="+"){
+            answer=a+b;
+        }
+        else if(c=="-"){
+            answer=a-b;
+        }
+        else if(c=="*"){
+            answer=a*b;
+        }
+        else if(c=="/"){
+            answer=a/b;
+        }
+        else{
+            answer="輸入錯誤符號";
+        }
+        alert(answer);
+    </script>
+    </head>
+    <body>
+
+    </body>
+</html>
