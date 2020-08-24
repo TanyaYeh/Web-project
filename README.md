@@ -264,3 +264,23 @@
 [實作03](/03_basic_html/homework/training3.html)
 
 [參考資料:網頁前端工程入門：CSS3 Flexbox 排版基礎教學 By 彭彭](https://www.youtube.com/watch?v=CB-s9s1-r7Q&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp&index=7)
+
+## Javascript基礎教學
+
+標籤`<script>`可以放入`<head>`或`<body>`之中
+
+`alert`使用`()`來框住要呼叫的命令，字串要用雙隱號`""`包裹，使用如下
+
+    <head>
+        <meta charset="utf-8"/>
+        <title>Lesson 9</title>
+        <script type="text/javascript"> //寫入屬性type"text/javascript"
+
+            alert("Hello World");      //一個`;`代表一個命令
+            alert("大家好") 
+        </script>
+    </head>
+
+[實作09](/09_basic_html/homework/training9.html)
+
+[參考資料:網頁前端工程入門：Javascript 簡介 By 彭彭](https://www.youtube.com/watch?v=LI4ADR4JKyA&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp&index=9)
