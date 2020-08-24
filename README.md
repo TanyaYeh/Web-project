@@ -39,6 +39,7 @@
 `<meta>`|`charset`設定網頁編碼
 `style`|`font-weight`文字粗細
 ^|`font-size`文字大小
+^|`position:relative`&`position:absolute`設定相對、絕對位置
 
 ### 基本架構(巢狀的標籤組成)如下
 
@@ -120,15 +121,27 @@
         .keyword{
            color:red;
         }
+        .box{
+            position:absolute;top:0px;right:0px;//設定絕對位置使區塊固定於畫面中指定位置
+        }
     </head>
     <body>
         <div class="title">今天天氣不錯</div>
         <div class="content">路上有很多<span class="keyword">鴿子</span></div>
+        <div class="box"></box>
+        <div class="title">公園裡有很多小朋友</div>
+        <div class="content">小朋友在玩溜滑梯和盪鞦韆，還有幾隻貓貓狗狗。
+        </div>
+        <div class="content">還有幾位老公公<span style="position:relative;top:-5px;">2</span>在下棋。</div>
     </body>
 
 ***區塊高度一般不會設計高度，因為高度會隨內容變大變小***
 
 ***高度、寬度只能設計在區塊(會斷行的)標籤，而無法設計在行內標籤(如`span`)***
+
+[實作](/04_basic_html/homework/training4.html)
+
+[參考資料:網頁前端工程入門：基礎 CSS 教學 By 彭彭](https://www.youtube.com/watch?v=Jr7lwHnTK68&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp&index=2)
 
 #### 結合標籤選擇器+class選擇器
 
@@ -221,11 +234,11 @@
 透過使用`flex`設定達到上一節先設定`margin-left/right:auto`，再設定`box:width`&`margin`&`padding`像素，最後再設定`display:inline-block`&`vertical-align:top`。
 具體方法為以下
 
-先處理*並排*(切欄):容器設定顯示模式`display:flex`；項目設`flex:none`並給寬度
+先處理***並排(切欄)*** :容器設定顯示模式`display:flex`；項目設`flex:none`並給寬度
 
-再處理*水平對齊*:容器設定`justify-content`
+再處理***水平對齊*** :容器設定`justify-content`
 
-最後處理*垂直對齊*:容器設定`align-items:stretch`
+最後處理***垂直對齊*** :容器設定`align-items:stretch`
 
     <!DOCTYPE html>
     <html>
