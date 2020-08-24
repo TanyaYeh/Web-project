@@ -284,3 +284,17 @@
 [實作09](/09_basic_html/homework/training9.html)
 
 [參考資料:網頁前端工程入門：Javascript 簡介 By 彭彭](https://www.youtube.com/watch?v=LI4ADR4JKyA&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp&index=9)
+
+## 變數與運算子
+
+資料:數字、字串`string`(需用雙隱號包裹)、布林值`ture`&`false`、物件。
+
+變數:可將資料存放進來，像一個儲存庫。一個變數只能裝一個資料。
+
+[運算子](C:\Users\三重田馥甄\Desktop\overview\README.md):單元運算、比較運算子
+
+使用者輸入:`prompt`(提示語,預設值)-->程式運算-->輸出`alert`(資料)
+
+[實作10](/10_basic_html/homework/training10.html)
+
+[參考資料:網頁前端工程入門：Javascript 變數與運算子 By 彭彭](https://www.youtube.com/watch?v=pVXPcl2jFvw&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp&index=10)
