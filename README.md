@@ -527,3 +527,33 @@ function 函式的名稱(參數的名稱){ //大括號內裝函式本體
 [實作14](/14_basic_html/homework/training14.html)
 
 [參考資料:網頁前端工程入門：Javascript 函式 - 延伸觀念 By 彭彭](https://www.youtube.com/watch?v=qmrVxIj97g4&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp&index=15)
+
+## 物件
+
+### 物件基礎設計
+
+```mermaid
+graph TD;
+A[建立空白物件] --> B[建立物件的成員];
+B[建立物件的成員:屬性/方法] --> C[使用物件]
+```
+
+    var player=new Object(); //建立空白物件
+    player.name="Tom"; //建立物件屬性
+    player.hp=100;
+    player.fight=function(){ //建立物件方法
+        this.hp=this.hp-2;
+    };
+    player.rest=function(){
+        this.hp++;
+    };
+    player.report=function(){
+        alert(this.name+":"+this.hp);
+    };
+    player.fight();//使用物件 //player.hp=98 
+    player.rest();//99
+    player.report();//Tom:99
+
+[實作15](/15_basic_html/homework/training15.html)
+
+[參考資料:網頁前端工程入門：Javascript 物件 - 基礎使用 By 彭彭](https://www.youtube.com/watch?v=Vwg7BaPBK-Y&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp&index=16)
