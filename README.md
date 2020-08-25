@@ -419,3 +419,46 @@ else{
 [實作](/12_basic_html/homework/training12.html)
 
 [參考資料:網頁前端工程入門：Javascript 流程控制 - 迴圈 By 彭彭](https://www.youtube.com/watch?v=uvLMIXuuc-8&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp&index=12)
+
+## 函式
+
+內建函式:如`alert()`
+
+1.設計一個函式:
+function 函式的名稱(參數的名稱){ //大括號內裝函式本體  
+    alert(參數的名稱);
+}
+
+2.使用參數給函式彈性
+
+3.呼叫函式:
+函式的名稱(傳入函式的參數資料);
+
+4.回傳值:看函式的結果要看回傳值
+
+    function add(n1,n2){
+        alert(n1+n2);
+        return n1+n2;//函式結束，函式回傳到呼叫的位置
+    }
+    var result= add(3,4)*add(10,20);
+    alert(result);
+
+運用:
+(1加到50)乘上(1加到100)
+
+    function getsum(max){
+        var sum=0;
+        var n=1;
+        while(n<=max){
+        sum+=n;
+        n++;
+        }
+        alert(sum);
+        return sum;
+        }
+    var result=getsum(50)*getsum(100);
+    alert(result);
+
+[實作13](/13_basic_html/homework/training13.html)
+
+[參考範例:網頁前端工程入門：Javascript 函式 - 基礎使用 By 彭彭](https://www.youtube.com/watch?v=A5s8BbE27hk&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp&index=14)

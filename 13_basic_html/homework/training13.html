@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title></title>
+        <script type="text/javascript">
+
+        // function multiply(n1,n2){
+        //     alert(n1+n2);
+        //     return n1*n2;
+        // }
+        // var answer= multiply(10,15);
+        // alert(answer);
+
+        function test(number){
+            var n=0; sum=0;
+            while(n<=number){ //0:n=1 sum=0;1:n=2 sum=1;2:n=3 sum=3;3:n=4 sum=6
+            sum+=n; //20:n=21 sum=210
+            n++;
+            }
+            alert(sum);//465,5050
+            return sum;
+        }
+        var final=test(30)+test(100);//5515
+        alert(final);
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
