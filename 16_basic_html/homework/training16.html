@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Lesson 16</title>
+        <script type="text/javascript">
+        // var person=new Object;
+        // person.name="Tanya";
+        // person.money=10000;
+        // person.withdrawal=function(){
+        //     this.money=this.money-2000;
+        // };
+        // person.transfer=function(){
+        //     this.money=this.money-5000;
+        // };
+        // person.account=function(){
+        //     alert(this.name+"存款餘額:"+this.money+"元")
+        // };
+        // person.withdrawal();//8000
+        // person.transfer();//3000
+        // person.account();//Tanya存款餘額:3000
+
+        function Person(name,money){
+            this.name=name;
+            this.money=money;
+            this.withdrawal=function(){
+                this.money=this.money-2000;
+            };
+            this.transfer=function(){
+                this.money=this.money-5000;
+            };
+            this.account=function(){
+                alert(this.name+"存款餘額:"+this.money+"元");
+            };
+        };
+        var person=new Person("Tanya",10000);
+        person.withdrawal();//8000
+        person.transfer();//3000
+        person.account();//Tanya存款餘額:3000元
+        var person2=new Person("Nina",50000);
+        person2.transfer();//45000
+        person2.transfer();//40000
+        person2.account();//Nina存款餘額:40000元
+        var person3=new Person("Peggy",100000);
+        person3.withdrawal();//98000
+        person3.withdrawal();//96000
+        person3.transfer();//91000
+        person3.account();//Peggy存款餘額:91000元
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
