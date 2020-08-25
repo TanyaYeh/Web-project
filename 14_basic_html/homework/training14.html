@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Lesson 14</title>
+        <script type="text/javascript">
+        var multiply=function(n1,n2){
+            alert(n1*n2);
+        }
+        multiply(10,23);   //230
+        var answer=multiply;
+        answer(8,9); //72
+        </script>
+        <script>
+            var x=3
+            function multiply2(){
+                var x=9;
+                var y=18;
+                alert(x*y);
+            }
+            // alert(x);
+            alert(x*y);//錯誤，y為區域變數，抓不到值
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
