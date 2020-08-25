@@ -319,19 +319,19 @@ else{
 
 3.if(判斷式){
 
-先做第一次判斷，如為true，則執行此塊程式碼
+//先做第一次判斷，如為true，則執行此塊程式碼
 
 }
 
 else if(判斷式二){
 
-如第一次判斷為false，則做第二次判斷二，如為true，則執行此塊程式碼
+//如第一次判斷為false，則做第二次判斷二，如為true，則執行此塊程式碼
 
 }
 
 else{
 
-如第二次判斷仍為false，則執行此塊程式碼
+//如第二次判斷仍為false，則執行此塊程式碼
 
 }
 
@@ -360,3 +360,62 @@ else{
 [實作11](/11_basic_html/homework/training11.html)
 
 [參考資料:網頁前端工程入門：Javascript 流程控制 - 判斷式 By 彭彭](https://www.youtube.com/watch?v=LIgMGq0YRPE&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp&index=11)
+
+## 流程控制-迴圈
+
+1.while(判斷){
+
+//若判斷結果為正確的(true)，執行{}中的程式碼。
+程式碼執行完畢，回到上方while的位置，做第二次判斷，直到判斷結果為錯誤的(false)，才跳離整個迴圈結構}
+
+例一
+
+    while(true){
+    alert("hello,world");  //無窮迴圈
+    }
+
+例二
+
+    var n=1; sum=0;
+    while(n<=5){
+    sum=sum+n; //sum+=n /*1st sum=1 n=2 ;2nd sum=3 n=3;3rd sum=6  n=4;4th sum=10 n=5;5th sum=15 n=6*/
+    n++; //1+2+3+4+5=15
+    }
+    alert(sum);
+2.for(初始區塊;判斷;迴圈區塊){
+
+判斷概念同while迴圈。}
+
+    var sum=0;
+    for(var i=1;i<=100;i++){
+        sum=sum+i;
+    }
+    alert(sum);
+
+搭配使用`break;`強制跳出迴圈;`continue`強制進行下一次的迴圈
+
+例一
+
+    var n=0;
+    while(n<=100){
+    if(n == 50){
+        break;
+    }
+    n++; //50th n=50 51th=>true=>break =>n=50
+    }
+    alert(n);
+
+例二
+
+    var x=0;
+    for(var i=0;i<=100;i++){
+    if(i%4 == 0 ){  //i能被4整除(沒有餘數)
+        continue;//強制直接重頭進行
+    }
+    x++;
+    }
+    alert(x);/*100中能被4整除的數字有25個，當整除時continue會強制重頭進行，故x不進行+1；每進行一次x就+1，進行100次其中25次沒有運行到最後，故x=75*/
+
+[實作](/12_basic_html/homework/training12.html)
+
+[參考資料:網頁前端工程入門：Javascript 流程控制 - 迴圈 By 彭彭](https://www.youtube.com/watch?v=uvLMIXuuc-8&list=PL-g0fdC5RMbpqZ0bmvJTgVTS4tS3txRVp&index=12)
