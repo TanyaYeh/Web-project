@@ -25,7 +25,7 @@ HTML 是一種標記語言（markup language)，其包含了一系列的元素�
         <meta charst="utf8"/>
         <!--網頁按utf8編碼進行，使中文可以正確顯示-->
         <title></title>       <!--網頁的標題-->
-        <style type:"text/css">
+        <style type:"text/css"/>
         <!--寫入css選擇器(class)-->
     </head>
     <body>
