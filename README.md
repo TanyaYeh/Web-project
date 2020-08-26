@@ -100,3 +100,8 @@ Basic concept for HTML, CSS and JavaScript for beginner
 
 ## 其他參考資料
 
+[函式簡介](https://openhome.cc/Gossip/CppGossip/FunctionABC.html)
+
+[維基百科](https://zh.wikipedia.org/wiki/%E5%AF%B9%E8%B1%A1_(%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6))
+
+[常見變數/方法命名規則](https://dustinhsiao21.com/2019/03/14/naming-convention/)
