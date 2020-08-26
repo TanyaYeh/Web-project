@@ -48,6 +48,7 @@
         .box{
             position:absolute;top:0px;right:0px;/*設定絕對位置使區塊固定於畫面中指定位置*/
         }
+        </style>
     </head>
     <body>
         <div class="title">今天天氣不錯</div>
