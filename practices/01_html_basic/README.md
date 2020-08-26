@@ -10,11 +10,11 @@
 
 HTML 是一種標記語言（markup language)，其包含了一系列的元素（elements），而元素包含了標籤（tags）與內容（content）。
 
-![HTML元素的組成](/images/1598419854516.jpg)
+![HTML元素的組成](/practices/01_html_basic/images/1598419854516.jpg)
 
 標籤包含屬性，分為屬性名稱與值，屬性用於設定這個元素的色彩、對齊方式、圖表的格線等等。
 
-![屬性與屬性名稱、值](/images/1598420547437.jpg)
+![屬性與屬性名稱、值](/practices/01_html_basic/images/1598420547437.jpg)
 
 ### HTML基本架構(巢狀的標籤組成)
 
