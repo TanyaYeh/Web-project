@@ -66,11 +66,11 @@ HTML 是一種標記語言（markup language)，其包含了一系列的元素�
 ^|`margin`代表兩個區塊之間的距離
 `img`|`src`圖片的來源位置
 ^|`al`圖片名稱
-`<a>`|`href`超連結
+`a`|`href`超連結
 `table`|`border`使格線(邊)出現
 ^|`width`表格寬
 ^|`cellpadding`表格內容與邊界增加多少像素
-`<meta>`|`charset`設定網頁編碼
+`meta`|`charset`設定網頁編碼
 `style`|`font-weight`文字粗細
 ^|`font-size`文字大小
 ^|`position:relative`&`position:absolute`設定相對、絕對位置
@@ -79,6 +79,6 @@ HTML 是一種標記語言（markup language)，其包含了一系列的元素�
 
 - 呈現如下
 
-![作品](/01_basic_html/images/1598166291446.jpg)
+![作品](/practices/01_html_basic/images/1598166291446.jpg)
 
-- [作品原始碼](/01_basic_html/homework/training1.html)
+- [作品原始碼](/practices/01_html_basic/homework/training1.html)
