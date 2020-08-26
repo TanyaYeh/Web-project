@@ -15,7 +15,6 @@ Flexbox是一個CSS3中的排版工具，可取代`display:inline-block`的作�
 ### CSS3 Flexbox排版
 
 透過使用`flex`設定達到以前先設定`margin-left/right:auto`，再設定`box:width`&`margin`&`padding`像素，最後再設定`display:inline-block`&`vertical-align:top`的方法，有效精簡程式。
-具體方法為以下:
 
 方法:
 
