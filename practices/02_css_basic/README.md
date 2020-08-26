@@ -37,18 +37,17 @@
             font-weight:bold;font-size:20px;
         }
         .content{
-            width:400px;<!--設定區塊的寬度為400px-->
-            padding:10px;<!--內部文字與邊框距離10px的空白-->
-            border:1px solid blue;<!--區塊邊框變成藍色單實線(虛線用dashed)-->
-            margin-top:10px;margin-bottom:10px;<!--使區塊上下距離10像素-->
+            width:400px; /*設定區塊的寬度為400px*/
+            padding:10px;/*內部文字與邊框距離10px的空白*/
+            border:1px solid blue;/*區塊邊框變成藍色單實線(虛線用dashed)*/
+            margin-top:10px;margin-bottom:10px;/*使區塊上下距離10像素*/
         }
         .keyword{
            color:red;
         }
         .box{
-            position:absolute;top:0px;right:0px;<!--設定絕對位置使區塊固定於畫面中指定位置-->
+            position:absolute;top:0px;right:0px;/*設定絕對位置使區塊固定於畫面中指定位置*/
         }
-        </style>
     </head>
     <body>
         <div class="title">今天天氣不錯</div>
