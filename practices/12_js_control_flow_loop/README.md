@@ -1,6 +1,6 @@
 # 網頁前端工程入門：Javascript 流程控制 - 迴圈 By 彭彭
 
-運用jscript中流程控制`while`&`for`，結合`if`判斷式與`break`、`continue`來控制迴圈運行。
+
 
 ## 學習參考來源
 

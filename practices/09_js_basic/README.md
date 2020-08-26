@@ -1,6 +1,6 @@
 # 網頁前端工程入門：Javascript 簡介 By 彭彭
 
-插入javascript功能，並使用`alert`呼叫命令。
+
 
 ## 學習參考來源
 
