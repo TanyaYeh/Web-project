@@ -26,7 +26,7 @@ Basic concept for HTML, CSS and JavaScript for beginner
 
 ## 目錄與實作
 
-### [1.基礎HTML](/practices/01_html_basic/README.md)
+### [1.基礎HTML](/practices/01_html_basic/)
 
 基本架構、列表、表格建置與框線設定。
 
@@ -38,47 +38,47 @@ Basic concept for HTML, CSS and JavaScript for beginner
 
 ### [4.CSS表格樣式]()
 
-### [5.網頁排版](/practices/05_html_layout/README.md)
+### [5.網頁排版](/practices/05_html_layout/)
 
 處理區塊並排、固定高度、版面文字置中。
 
 ### [6.回應式(RWD, Responsive Web Design)排版設計]()
 
-### [7.CSS3 Flexbox 排版](/practices/07_css_flexbox_layout/README.md)
+### [7.CSS3 Flexbox 排版](/practices/07_css_flexbox_layout/)
 
 使用Flexbox解決並排切欄、水平對齊、垂直對齊。
 
 ### [8.CSS3 Flexbox 回應式設計 RWD 排版]()
 
-### [9.基礎Javascript](/practices/09_js_basic/README.md)
+### [9.基礎Javascript](/practices/09_js_basic/)
 
 插入javascript功能，並使用`alert`呼叫命令。
 
-### [10.Javascript 變數與運算子](/practices/10_js_variable_and_operators/README.md)
+### [10.Javascript 變數與運算子](/practices/10_js_variable_and_operators/)
 
 使用變數、運算子，做出一個互動性的簡易提示視窗。
 
-### [11.Javascript 流程控制 - 判斷式](/practices/11_js_control_flow_conditional_statements/README.md)
+### [11.Javascript 流程控制 - 判斷式](/practices/11_js_control_flow_conditional_statements/)
 
 運用jscript中流程控制，結合判斷式的結構與簡易彈出視窗達到互動功能，並透過字串轉換數字的設置解決回應顯示錯誤的問題。
 
-### [12.Javascript 流程控制 - 迴圈](/practices/12_js_control_flow_loop/README.md)
+### [12.Javascript 流程控制 - 迴圈](/practices/12_js_control_flow_loop/)
 
 運用jscript中流程控制`while`&`for`，結合`if`判斷式與`break`、`continue`來控制迴圈運行。
 
-### [13.基礎Javascript 函式](/practices/13_js_basic_function/README.md)
+### [13.基礎Javascript 函式](/practices/13_js_basic_function/)
 
 基本函式建立、呼叫函式、賦予參數、回傳值，並配合迴圈進行運算。
 
-### [14.Javascript 函式 - 變形與名稱空間](/practices/14_js_function/README.md)
+### [14.Javascript 函式 - 變形與名稱空間](/practices/14_js_function/)
 
 變數基本觀念與函式做應用，全域/區域空間與全域/區域變數。
 
-### [15.基礎Javascript 物件](/practices/15_js_basic_object/README.md)
+### [15.基礎Javascript 物件](/practices/15_js_basic_object/)
 
 基礎物件設立的流程與物件的使用。
 
-### [16.Javascript 物件 - 建構式](/practices/16_js_ctor/README.md)
+### [16.Javascript 物件 - 建構式](/practices/16_js_ctor/)
 
 透過使用建構式，精簡程式碼。
 
