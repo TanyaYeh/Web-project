@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Object Prototype</title>
+        <p id="demo"></p>
+        <p id="demo2"></p>
+        <script stype="text/javascript">
+        function Person(first,last,age,eye){
+            this.firstName=first;
+            this.lastName=last;
+            this.age=age;
+            this.eyeColor=eye;
+        }
+        Person.prototype.hairColor="black" //給建構式一個新的屬性，繼承原本建構式的類別
+        Person.prototype.nextAge=function(){
+        return   this.age++;
+        }
+        var myFather=new Person("Joy","James",50,"blue");
+        var myMother=new Person("Lili","Wang",45,"black");
+        myFather.nextAge();  /*一定要先呼叫才會進行一次方法內的function*/
+        myMother.nextAge();
+        document.getElementById("demo").innerHTML=
+        "My father is "+myFather.hairColor+" hair."+"My mother is "+myMother.hairColor+" hair.";
+        document.getElementById("demo2").innerHTML=
+        "My father is "+myFather.nextAge()+" years old next year. "+"My mother is "+myMother.nextAge()+" years old next year. "
+        </script>
+    </head>
+</html>
