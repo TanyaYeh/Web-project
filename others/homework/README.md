@@ -10,11 +10,11 @@
 
 ## 目錄與實作
 
-### [1.建構式](./homework/js_object_constructors/)
+### [1.建構式](/homework/js_object_constructors/)
 
-### [2.原型](./homework/js_object_prototype/)
+### [2.原型](/homework/js_object_prototype/)
 
-### [3.ES5 Object Methods](./homework/js_object_ECMAScript_5/)
+### [3.ES5 Object Methods](/homework/js_object_ECMAScript_5/)
 
 ## 其他參考資料
 
