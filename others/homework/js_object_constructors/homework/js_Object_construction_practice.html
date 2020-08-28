@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>blueprint</title>
+    <title>Adding methods and Property</title>
 </head>
 <body>
 
@@ -12,90 +12,11 @@
 
 <script type="text/javascript">
 
-// // Constructor function for Person objects
-// function Person(first,last,age,eye){
-// 	this.firstName=first;
-//     this.lastName=last;
-//     this.age=age;
-//     this.eyeColor=eye;
-// }
-
-// // Create two Person objects
-// var myFather=new Person("John","Doe",50,"blue");
-// var myMother=new Person("Sally","Rally",48,"green");
-// // Display age
-// document.getElementById("demo").innerHTML =
-// "My father is " + myFather.age + ". My mother is " + myMother.age + ".";  -->
-
-
-// Constructor function for Person objects
-// function Person(first, last, age, eye) {
-//   this.firstName = first;
-//   this.lastName = last;
-//   this.age = age;
-//   this.eyeColor = eye;
-// }
-
-// // You can NOT add a new property to a constructor function
-// Person.nationality = "English";
-
-// // Create 2 Person objects
-// var myFather = new Person("John", "Doe", 50, "blue");
-// var myMother = new Person("Sally", "Rally", 48, "green");
-
-// // Display nationality
-// document.getElementById("demo").innerHTML =
-// "The nationality of my father is " + myFather.nationality; 
-
-
-// Constructor function for Person objects
-// function Person(first, last, age, eye) {
-//   this.firstName = first;
-//   this.lastName = last;
-//   this.age = age;
-//   this.eyeColor = eye;
-// }
-
-// // You can NOT add a object property before you clain it
-// myFather.nationality = "English";
-
-
-// // Create 2 Person objects
-// var myFather = new Person("John", "Doe", 50, "blue");
-// var myMother = new Person("Sally", "Rally", 48, "green");
-
-// // Display nationality
-// document.getElementById("demo").innerHTML =
-// "The nationality of my father is " + myFather.nationality; 
-/*結論:要添加建構式的屬性、方法，一定要把他放在建構式的function裡面；但你可以再宣告物件後，為物件新增屬性和方法*/
-/*你可以不設定參數，就把屬性添加進建構式中*/
-
-// Constructor function for Person objects
-// function Person(first, last, age, eye) {
-//   this.firstName = first;
-//   this.lastName = last;
-//   this.age = age;
-//   this.eyeColor = eye;
-//   this.nationality = "English";
-//   this.nextAge=function(){
-//    return this.age++;
-//   };
-// }
-
-// // Create 2 Person objects
-// var myFather = new Person("John", "Doe", 50, "blue");
-// var myMother = new Person("Sally", "Rally", 48, "green");
-
-// // Display nationality
-// document.getElementById("demo").innerHTML =
-// "My father is " + myFather.nationality +"."+"My father is "+ myFather.nextAge() +" next year."//記得呼叫函式要使用回傳值，才不會變成undefined
-
 function Person(first, last, age, eye) {
   this.firstName = first;
   this.lastName = last;
   this.age = age;
   this.eyeColor = eye;
-  this.nationality = "English";
   this.nextAge=function(age){
     return   this.age=age+1;
   };
@@ -104,8 +25,8 @@ function Person(first, last, age, eye) {
 // Create 2 Person objects
 var myFather = new Person("John", "Doe", 50, "blue");
 var myMother = new Person("Sally", "Rally", 48, "green");
-myFather.nextAge(50)
-
+myFather.nextAge(50);//記得呼叫函式要使用回傳值，才不會變成undefined
+myFather.nationality="English";
 // Display nationality
 document.getElementById("demo").innerHTML =
 "My father is " + myFather.nationality +"."+"My father is "+ myFather.age +" next year."/*空白物件屬性age裡面原本放值age；給入參數50，呼叫方法nextAge，nextAge又重新定義了空白物件的屬性age放入值age+1*/

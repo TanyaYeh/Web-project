@@ -31,7 +31,7 @@ B-->D[方法,Method];
 
 ### 檢測型別
 
-使用`typeof`
+使用`typeof`檢測型別為基本型別還是物件型別
 
 ```javascript
 typeof {name:"Jack"} //object
@@ -40,7 +40,7 @@ typeof {name:"Jack"} //object
 使用`Object.prototype.toString.call`來檢視屬於哪個子型別
 
 ```javascript
-Object.prototype.toString.call({name:"Jack"})//object Object]
+Object.prototype.toString.call({name:"Jack"})//[object Object]
 ```
 
 ### 增加、更變建構式的屬性/方法
@@ -111,7 +111,7 @@ function Person(firstName,lastName,age,color){
 var myMother =new Person("Sally","Rally",48,"green");
 myMother.changeName("Doe"); //方法需要被呼叫才會發生
 document.getElementById.innerHTML=
-"My mother's last name is  "+myMother.changeName+"." ;//My mother's last name is Doe.
+"My mother's last name is  "+myMother.lastName+"." ;//My mother's last name is Doe.
 ```
 
 ***結論:參數的值是可以(透過方法)被替換的***
@@ -145,11 +145,48 @@ strObj instanceof String  //true,strObj來自於String建構式
 
 - Date、RegExp、Error 沒有基本資料型別的形式，所以只能使用物件子型別 new 來產生。
 
+### 內建建構子(Built-in Constructors)
+
+String(), Number(), Boolean(), Array(), and RegExp()無需使用，因以上型別皆是物件型別(object)(使用typeof檢測均為object)。
+
+*Math()為global object，故無法使用關鍵字`new`*
+
+### 使用符號來取代文字表達建立物件
+
+符號|型別
+---|---|
+`{}`|new Object
+`""`|new String
+`數字`|new Number()
+`true/false`|new Boolean
+`[]`|new Array
+`/()/`|new RegExp
+`(){}`|new Function
+
+## 延伸筆記
+
+### 內建型別（Built-in Types）
+
+分為基本型別（primitives）(如:number、string、boolean、null、undefined、symbol)和物件型別（object）(如:object、array、function、date)
+
+物件型別（object）就是物件與其子型別（subtype）
+
+```mermaid
+graph TD;
+A[內建型別]-->B[基本型別];
+A-->C[物件型別];
+C-->D[物件];
+C-->E[子型別];
+```
 
 ## 實作
 
 - 呈現如下
 
-![]()
+![增加屬性和替換屬性值](/training-web-fundamental/others/homework/js_object_constructors/images/1598601001340.jpg)
 
-- [作品原始碼]()
+![使用typeof檢測物件型態](/training-web-fundamental/others/homework/js_object_constructors/images/1598598516382.jpg)
+
+- [作品原始碼1](/training-web-fundamental/others/homework/js_object_constructors/homework/js_Object_construction_practice.html)
+
+- [作品原始碼2](/training-web-fundamental/others/homework/js_object_constructors/homework/js_Typeof_object.html)

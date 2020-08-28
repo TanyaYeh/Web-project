@@ -12,6 +12,8 @@
 
 ### [1.建構式](../homework/js_object_constructors/)
 
+使用建構式，學習如何增加屬性&方法；檢測物件型態。
+
 ### [2.原型](../homework/js_object_prototype/)
 
 ### [3.ES5 Object Methods](../homework/js_object_ECMAScript_5/)
@@ -22,5 +24,6 @@
 
 [什麼是物件導向程式設計(OOP)呢?](https://expect7.pixnet.net/blog/post/38682120)
 
-[第七章 物件導向設計： 物件導向設計：
-類別與物件](http://dns2.asia.edu.tw/~wzyang/slides/java/chen/se7ch07.pdf)
+[第七章 物件導向設計： 物件導向設計：類別與物件](http://dns2.asia.edu.tw/~wzyang/slides/java/chen/se7ch07.pdf)
+
+[你懂 JavaScript 嗎？#4 型別（Types）](https://cythilya.github.io/2018/10/11/types/)
