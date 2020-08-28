@@ -25,7 +25,7 @@ B-->D[方法,Method];
 - 方法:ex.物件共通、本身就會的
 - 事件(Event):ex.被動觸發的動作(不一定每個物件都會觸發)
 
-![實例](/training-web-fundamental/others/homework/js_object_constructors/images/1598547839220.jpg)
+![實例](./images/1598547839220.jpg)
 
 *物件( Object )就是類別（Class）的實體（Instance），建構子（Constructor）則是達成實體的特殊方法。*
 
@@ -183,10 +183,10 @@ C-->E[子型別];
 
 - 呈現如下
 
-![增加屬性和替換屬性值](/training-web-fundamental/others/homework/js_object_constructors/images/1598601001340.jpg)
+![增加屬性和替換屬性值](./images/1598601001340.jpg)
 
-![使用typeof檢測物件型態](/training-web-fundamental/others/homework/js_object_constructors/images/1598598516382.jpg)
+![使用typeof檢測物件型態](./images/1598598516382.jpg)
 
-- [作品原始碼1](/training-web-fundamental/others/homework/js_object_constructors/homework/js_Object_construction_practice.html)
+- [作品原始碼1](./homework/js_Object_construction_practice.html)
 
-- [作品原始碼2](/training-web-fundamental/others/homework/js_object_constructors/homework/js_Typeof_object.html)
+- [作品原始碼2](./homework/js_Typeof_object.html)
