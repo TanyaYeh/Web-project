@@ -16,6 +16,8 @@
 
 ### [2.原型](../homework/js_object_prototype/)
 
+了解`inherits`並使用`prototype`來新增建構式的方法和屬性。
+
 ### [3.ES5 Object Methods](../homework/js_object_ECMAScript_5/)
 
 ## 其他參考資料
