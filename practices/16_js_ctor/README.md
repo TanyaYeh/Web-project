@@ -12,7 +12,7 @@
 
 ```javascript
 function Player(name,hp){ //建構式，函式名稱首字大寫
-    this.name=name; //this 代表新建構的空白物件的屬性
+    this.name=name; /*this 代表新建構的空白物件它自己，為一個關鍵詞(keyword)，本身沒有值，創造新的空白物件後，值就是這個物件*/
     this.hp=hp;
     this.flight=function(){
         this.hp=this.hp-2;
