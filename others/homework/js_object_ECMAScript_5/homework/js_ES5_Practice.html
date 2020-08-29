@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>JavaScript Object ES5</title>
+        <script type="text/javascript"></script>
+    </head>
+<body>
+<h2>Prevents adding properties to an object</h2>
+<script>
+const obj={
+  name:'Bird',
+};
+Object.preventExtensions(obj);
+obj.newName='Dog';
+console.log(obj.newName);//undefined
+console.log(Object.isExtensible(obj));//false
+</script>
+<h2>Changing a Property Value</h2>
+<script>
+var player ={
+  name:'James',
+  hp:100,
+  mp:100,
+  str:10,
+}
+console.log(Object.getOwnPropertyDescriptor(player,'name'));/*value:'James',wirtable:true,enumerable:true,configurable:true*/
+Object.defineProperty(player,'name',{value:'Tom'});
+console.log(player.name);
+</script>
+<h2>Listing All Properties</h2>
+<script>
+var player ={
+  name:'James',
+  hp:100,
+  mp:100,
+  str:10,
+}
+Object.defineProperty(player,'str',{enumerable:false});
+console.log(Object.getOwnPropertyNames(player));//['name','hp','mp','str']
+</script>
+
+<h2>Listing Enumerable Properties</h2>
+<script>
+var player ={
+  name:'James',
+  hp:100,
+  mp:100,
+  str:10,
+}
+Object.defineProperty(player,'str',{enumerable:false});
+console.log(Object.keys(player));//['name','hp','mp']
+</script>
+
+<h2>Adding a Property</h2>
+<script>
+  var player={
+    name:'James',
+    hp:100,
+    mp:100,
+    str:10,
+  };
+  Object.defineProperty(player,'int',{value:10});
+  // console.log(Object.getOwnPropertyNames(player));//['name','hp','mp','str','int']
+  console.log(player.int);//10
+</script>
+
+<h2>Adding Getters and Setters</h2>
+<script>
+  var player={
+    name:'James',
+    hp:100,
+    mp:100,
+    str:10,
+  };
+  Object.defineProperty(player,'status',{
+    get:function status(){  //取得屬性status的值
+      return this.name+':'+'hp:'+this.newHp+'mp:'+this.mp
+    },
+    set:function status(rest){ //新增一個屬性並設定其值
+      this.newHp=this.hp+rest ;
+    }
+  });
+  player.status=1; //屬性放入參數
+  console.log(Object.getOwnPropertyNames(player));//["name", "hp", "mp", "str", "status", "newHp"]
+  console.log(player.status);
+</script>
+</body>
+</html>

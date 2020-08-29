@@ -116,7 +116,7 @@ document.getElementById.innerHTML=
 
 ***結論:參數的值是可以(透過方法)被替換的***
 
-## 內建物件（Built-in Objects）
+## 內建物件（Built-in Objects)
 
 使用內建函式所建立的物件，這些物件都屬於物件子型別的一種。
 

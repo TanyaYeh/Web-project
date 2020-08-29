@@ -20,6 +20,8 @@
 
 ### [3.ES5 Object Methods](../homework/js_object_ECMAScript_5/)
 
+使用ES5的方法來進行屬性的設定、增減、屬性特徵的設置。
+
 ## 其他參考資料
 
 [淺談 JavaScript 頭號難題 this：絕對不完整，但保證好懂](https://blog.techbridge.cc/2019/02/23/javascript-this/)
