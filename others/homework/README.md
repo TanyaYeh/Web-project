@@ -22,6 +22,10 @@
 
 使用ES5的方法來進行屬性的設定、增減、屬性特徵的設置。
 
+### [4.ES6 Class](../homework/js_classes/)
+
+使用ES6新功能`Class`，並輔以
+
 ## 其他參考資料
 
 [淺談 JavaScript 頭號難題 this：絕對不完整，但保證好懂](https://blog.techbridge.cc/2019/02/23/javascript-this/)
@@ -31,3 +35,5 @@
 [第七章 物件導向設計： 物件導向設計：類別與物件](http://dns2.asia.edu.tw/~wzyang/slides/java/chen/se7ch07.pdf)
 
 [你懂 JavaScript 嗎？#4 型別（Types）](https://cythilya.github.io/2018/10/11/types/)
+
+[深入淺出 JavaScript ES6 Class (類別)](https://shubo.io/javascript-class/)

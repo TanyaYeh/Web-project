@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>JavaScript Classes</title>
+        <script type="text/javascript">    
+        </script>
+    </head>
+    <body>
+        <h2>Pass a parameter into the "present()" method.</h2>
+        <script>
+        class Animal{
+            constructor(name){
+               this.animalName=name; 
+            };
+            present(x){
+                return this.animalName=x;
+            };
+        };
+        pet=new Animal("Dog");
+        console.log(pet.present("Cat"));//替換參數Cat
+        </script>
+        <script>
+        class Animal1{
+            constructor(name){
+                this.animalName=name; 
+            };
+            present(x){
+                return x+this.animalName+".";
+            };
+        };
+        pet=new Animal1("Dog");
+        console.log(pet.present("I have a "));
+        </script>
+        <h2></h2>
+    </body>
+</html>

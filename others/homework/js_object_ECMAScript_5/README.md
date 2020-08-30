@@ -177,19 +177,23 @@ Object.definePropoty(obj,'name',{ //無法重新配置屬性特徵
 
 ```javascript
 const obj ={};
-Object.definePropertype(obj,'name',{
-  configurable:ture,
-  enumerable:ture,
+Object.defineProperty(obj,'name',{
+  configurable:true,
+  enumerable:true,
   get: function name(){
     return this._name_;
   },
   set: function name(value){
-    this._name_='Hi,I am $(value)';
-  },
+    this._name_="Hi,I am " +value;
+  }
 });
-obj.name='Jack';
-obj.name//'Hi,I am Jack'
+obj.name="Jack";
+console.log(obj.name);//Hi,I am Jack
 ```
+
+***`getter`取得屬性值時，並不需要()去呼叫它***
+
+***`getter`&`setter`方法名稱(如上例:_name_)不能與屬性名稱(如上例:name)相同，習慣以屬性名稱+`_`區隔兩者***
 
 ## 實作
 

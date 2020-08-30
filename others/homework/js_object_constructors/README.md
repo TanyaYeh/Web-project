@@ -1,4 +1,4 @@
-# avaScript Object Constructors
+# JavaScript Object Constructors
 
 ## 學習參考來源
 
