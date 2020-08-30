@@ -140,8 +140,6 @@ console.log(mycar.carname);//getter、setter在取得屬性值的時候不需要
 
 - 呈現如下
 
-![]()
+![class](./images/1598809677354.jpg)
 
-![]()
-
-- []()
+- [作品原始碼](./homework/js_Class_practice.html)

@@ -32,6 +32,54 @@
         pet=new Animal1("Dog");
         console.log(pet.present("I have a "));
         </script>
-        <h2></h2>
+        <h2>JavaScript Class Static Methods</h2>
+        <script>
+            class Animal2{
+                constructor(name){
+                    this.animalName=name;
+                };
+                static say(x){
+                    return "I have a "+x.animalName;
+                };
+            };
+            pet=new Animal2("Dog");
+            console.log(Animal2.say(pet));//I have a Dog
+        </script>
+        <script>
+            class Fruit{
+                constructor(name){
+                    this.fruitName=name;
+                };
+                present(){
+                    return "I want to buy a/an "+this.fruitName;
+                };
+            };
+            class Model extends Fruit{
+                constructor(name,place){
+                    super(name);
+                    this.buyPlace=place;
+                };
+                show(){
+                    return this.present()+" in "+this.buyPlace+"."
+                };
+            };
+            thisDay=new Model("Apple","7-11");
+            console.log(thisDay.show());//I want to buy a/an Apple in 7-11.
+        </script>
+        <script>
+            class Fruit1{
+                constructor(food){
+                    this._name_=food;
+                };
+                get name(){
+                    return this._name_;
+                };
+                set name(x){
+                    this._name_=x;
+                };
+            };
+            myFavoriteFood=new Fruit1("Apple");
+            console.log(myFavoriteFood.name);
+        </script>
     </body>
 </html>
