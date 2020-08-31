@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>面試練習3-1</title>
+        <script type ="text/javascript"></script>
+    </head>
+    <body>
+        <h1>問題一：作用域(Scope)</h1>
+        <h3>console出來的值是多少? 跟為什麼</h3>
+        <script>
+        (function() {
+            var a = b = 3;
+        })();
+
+        console.log(b)/*答案:3，因為`console.log`在函式外(在函式外求變數b的值)，而變數b未經宣告，故為全域變數，賦值3給變數b*/
+        </script>
+        <script>
+        (function() {
+            var a = b = 3;
+            console.log(b)/*答案:3，在函式內求全域變數b的值，b=3*/
+        })();
+        </script>
+        <script>
+        (function() {
+            var a = b = 3;
+        })();
+        console.log(a)/*答案:a is not defined(a尚未被宣告)，a為函式內的區域變數，只在函式內部作用；在函式外求變數a的值，只會往更外層找a，`console.log`已經在最外層，所以會得出a is undefined*/
+        </script>
+        <script>
+        (function() {
+            var a = b = 3;
+            console.log(a)/*答案:3，在函式內求區域變數a的值，函式內宣告變數a，並賦值全域變數b給a，b賦值3，故a的值為3*/
+        })();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>面試練習3-3</title>
+    <script type="text/javascript"></script>
+</head>
+
+<body>
+    <h1> 問題三：在JavaScript中，this是如何工作的?</h1>
+    <h2>console出來的結果並解釋原因</h2>
+    <script>
+        var fullname = 'John Doe';
+        var obj = {
+            fullname: 'Colin Ihrig',
+            prop: {
+                fullname: 'Aurelio De Rosa',
+                getFullname: function () {
+                    return this.fullname;
+                }
+            }
+        };
+
+
+
+
+        console.log(obj.prop.getFullname());/*Aurelio De Rosa,obj.prop.getFullname()等價於object.prop.getFullname.call()，此時的this指向obj.prop；
+        也可以從另一個觀點來看:obj.prop.getFullname()是呼叫一個方法它回傳的值(拿值)。*/
+
+        var test = obj.prop.getFullname;
+        console.log(test());/*John Doe，test()等價於test.call()，此時的this指向全域;
+        也可以從另一個觀點看:obj.prop.getFullname是一個函式(function () {   return this.fullname;})，var test的作用域在全域，故在全域尋找fullname的值。(只拿函式)*/
+    </script>
+</body>
+
+</html>

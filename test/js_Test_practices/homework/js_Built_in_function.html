@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>面試練習3-2</title>
+    <script type="text/javascript"></script>
+</head>
+
+<body>
+    <h1>問題二：創建原生方法</h1>
+    <h3>在String對象上創建一個repeatify函數，接收的這個參數，代表要重複幾次。</h3><!--"創建一個repeatify函數"意即擴增一個功能=>使用repeatify函數去繼承String使其功能擴充
+        ；String為一個原生的物件子型別；"要重複幾次"意即函式中要使用迴圈-->
+    <h4>方法一</h4>
+    <script>
+        String.prototype.repeatify=function(time){ //使repeatify繼承String，並將repeatify設為一個函式
+            var result="";//先放一個字串的空值，代表要吐回的結果
+            var word=this;//設一個要繼承過來的字,this指向String
+            for(var i=1;i<=time;i++){ //設一個for迴圈，讓i從1開始跑，第一次執行完i=2
+                 result+=word;//result=result+word
+            };
+            return result;//回傳值
+        }
+        var logStr='hello'.repeatify(5);
+        console.log(logStr)//hellohellohellohellohello
+    </script>
+    <h4>方法二</h4>
+    <script>
+        var obj={
+            time:5,
+            word:"hello",
+            Result:function(){
+                var result="";//設一個字串的空值給result存放
+                var word = this.word;//this.word指向字串"hello"
+                for(var i=1;i<=this.time;i++){
+                    result+=word;
+                }
+                return result;
+            }
+        };
+        console.log(obj.Result());//等價於obj.Result.call()，this指向於obj.Result
+    </script>
+
+</body>
+
+</html>

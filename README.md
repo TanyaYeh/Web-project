@@ -98,6 +98,8 @@ Basic concept for HTML, CSS and JavaScript for beginner
 
 ### [24.Hoisting 宣告提升]()
 
+### [面試考古題練習](/test/js_Test_practices/homework/)
+
 ## 其他參考資料
 
 [函式簡介](https://openhome.cc/Gossip/CppGossip/FunctionABC.html)
