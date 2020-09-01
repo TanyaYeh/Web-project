@@ -79,6 +79,6 @@ HTML 是一種標記語言（markup language)，其包含了一系列的**元素
 
 - 呈現如下
 
-![作品](/practices/01_html_basic/images/1598166291446.jpg)
+![作品](./images/1598166291446.jpg)
 
-- [作品原始碼](/practices/01_html_basic/homework/training1.html)
+- [作品原始碼](./homework/training1.html)

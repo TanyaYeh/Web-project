@@ -82,7 +82,9 @@ Basic concept for HTML, CSS and JavaScript for beginner
 
 透過使用建構式，精簡程式碼。
 
-### [17.基礎HTML DOM]()
+### [17.基礎HTML DOM](/practices/17_html_Dom/)
+
+使用HTML DOM處理JS網頁畫面，取得標籤後，結合事件處理，呼叫函式對畫面做更新。
 
 ### [18.HTML DOM - 選單開合範例]()
 

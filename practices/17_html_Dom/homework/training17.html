@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Lesson 17</title>
+        <script type="text/javascript">
+        function change(){
+            var h2Obj=window.document.getElementById("fristLine");
+            var cont1Obj=window.document.getElementById("fristCont");
+            var cont2Obj=window.document.getElementById("secondCont");
+            var cont3Obj=window.document.getElementById("thirdCont");
+            h2Obj.innerHTML="我的首頁";
+            h2Obj.style.fontSize="30px";
+            h2Obj.style.color="#2584E4";
+            cont1Obj.innerHTML="我的愛好";
+            cont1Obj.style.fontSize="20px";
+            cont1Obj.style.color="#1A80A3";
+            cont2Obj.innerHTML="我的工作";
+            cont2Obj.style.fontSize="20px";
+            cont2Obj.style.color="#1A80A3";
+            cont3Obj.innerHTML="我的寵物";
+            cont3Obj.style.fontSize="20px";
+            cont3Obj.style.color="#1A80A3";
+        }
+        </script>    
+    </head>
+    <body>
+        <h2 id="fristLine"> My home page</h2>
+        <div>
+        <ul>
+            <li id="fristCont">My hobbit</li>
+            <li id="secondCont">My job</li>
+            <li id="thirdCont">My pet</li>
+        </ul>
+        </div>
+        <button onclick="change();">英翻中</button>
+    </body>
+</html>
