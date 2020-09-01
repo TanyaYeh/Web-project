@@ -29,7 +29,7 @@
         var obj={
             time:5,
             word:"hello",
-            Result:function(){
+            repeatify:function(){
                 var result="";//設一個字串的空值給result存放
                 var word = this.word;//this.word指向字串"hello"
                 for(var i=1;i<=this.time;i++){
@@ -38,7 +38,7 @@
                 return result;
             }
         };
-        console.log(obj.Result());//等價於obj.Result.call()，this指向於obj.Result
+        console.log(obj.repeatify());//等價於obj.repeatify.call()，this指向於obj.repeatify
     </script>
 
 </body>
