@@ -86,7 +86,9 @@ Basic concept for HTML, CSS and JavaScript for beginner
 
 使用HTML DOM處理JS網頁畫面，取得標籤後，結合事件處理，呼叫函式對畫面做更新。
 
-### [18.HTML DOM - 選單開合範例]()
+### [18.HTML DOM - 選單開合範例](/practices/18_html_Dom_menu/)
+
+使用HTML DOM，透過事件處理，取用標籤並設置CSS，達到選單開合的畫面呈現。
 
 ### [19.基礎Javascript 事件處理]()
 
