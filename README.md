@@ -90,11 +90,11 @@ Basic concept for HTML, CSS and JavaScript for beginner
 
 使用HTML DOM，透過事件處理，取用標籤並設置CSS，達到選單開合的畫面呈現。
 
-### [19.基礎Javascript 事件處理](/practices/19_html_event_basic/)
+### [19.基礎Javascript 事件處理](/practices/19_js_event_basic/)
 
 三種事件表達，靜/動態事件處理器設置，新/舊動態事件寫法。
 
-### [20.Javascript 事件處理 - Event Object 事件物件](/practices/20_html_event_object/)
+### [20.Javascript 事件處理 - Event Object 事件物件](/practices/20_js_event_object/)
 
 事件物件的取得&使用。
 
