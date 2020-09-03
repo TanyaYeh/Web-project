@@ -144,8 +144,8 @@
 
 - 呈現如下
 
-![作品點擊前](./images/1599048353920.jpg)
+![作品:點擊前](./images/1599048353920.jpg)
 
-![作品點擊後](./images/1599048372087.jpg)
+![作品:點擊後](./images/1599048372087.jpg)
 
 - [作品原始碼](/practices/18_html_Dom_menu/homework/training18.html)
