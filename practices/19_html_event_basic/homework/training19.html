@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Lesson 19</title>
+        <script type="text/javascript">
+        function init(number){
+            var btn=document.getElementById("btn");
+            var handler=function(){
+                alert("Wellcome to my homepage");
+            }
+            btn.addEventListener("click",handler);
+            var title=document.getElementById("h"+number);
+            var handler2=function(){
+                title.style.color="red";
+            }
+            title.addEventListener("mouseover",handler2);
+
+            var handler3=function(){
+                title.style.color="black";
+            }
+            title.addEventListener("mouseout",handler3);
+        }
+        </script>
+    </head>
+    <body onload="init(2);init(3);">
+         <button id="btn">Click</button>
+         <h2 id="h2"> 今天的天氣 </h2>
+         <div>陣雨</div>
+         <h2 id="h3"> 今天的溫度 </h2>
+         <div>32<span style="position: relative;top:-8px">o</span>C</div>
+    </body>
+</html>
